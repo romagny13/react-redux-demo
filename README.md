@@ -1,5 +1,11 @@
 # React Redux demo 
 
+- React
+- React Router
+- Redux
+- Redux Thunk
+- Api
+
 ## Usage
 
 ```
