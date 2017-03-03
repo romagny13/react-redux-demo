@@ -23,7 +23,7 @@ export class MovieAPI {
                 let data = JSON.parse(response);
                 resolve(data.Search);
             }, (xhr, status) => {
-                reject('Cannot load movies', xhr, status);
+                reject('Cannot load movies');
             });
         });
     }
